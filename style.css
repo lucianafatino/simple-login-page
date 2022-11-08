@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+*{
+    border: 0;
+    color: #804FE8;
+    font-family: 'Inter', sans-serif;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+.flex-container{
+    display: flex;
+    height: 100%;
+}
+
+.flex-child{
+    flex: 1;
+}
+
+.image{
+    background-color: #57A7FF;
+}
+
+.imagem-svg{
+    height: 75%;
+    margin: 100px 10px auto 100px;
+}
+
+.content{
+    background-color: #F6F5F5;
+}
+
+.content-in-fact{
+    margin-top: 50px;
+    margin-left: 150px;
+    width:59%;
+}
+
+.title{
+    color: #4F70E8;
+}
+
+.login-form input{
+    background-color: #E6E6E6;
+    font-size: 15px;
+    padding-left: 15px;
+      
+}
+
+.btn-login{
+    background-color: #4F70E8;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+.login-form input, .btn-login{
+    border-radius: 10px;
+    font-weight: bold;
+    height: 60px;
+    margin-top: 25px;
+    width: 400px; 
+}
+
+.btn-login:hover{
+    background-color: #435dbd;
+    transition: 0.5s;
+}
+
+.checkbox-div{
+    float:left;
+    width:50%;
+}
+
+.rmb-text{
+    color: grey;
+}
+
+.password-text{
+    margin-top: 21px;
+    text-align: right;
+}
+
+.checkbox-div .password-text a{
+    color: #804FE8;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.checkbox-div .password-text a:hover{
+    color: #633db4;
+    transition: 0.3s;
+}
+
+#checkbox{
+    height: 10px;
+    width: 10px;
+}
+
+.rmb-text, .password-text{
+    font-size: 12px;
+}
+
+.additional-text{
+    color: grey;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.login{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+
+.login-other{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.create-account{
+    margin-top: 25%;
+}
+
+.create-account p{
+    color: #3F3D56;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;    
+}
+
+.create-account p span{
+    color: #4F70E8;
+    cursor: pointer;
+}
+
+.create-account p span:hover{
+    color: #415bb9;
+    transition: 0.3s;
+}
